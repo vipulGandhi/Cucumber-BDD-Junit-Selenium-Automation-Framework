@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="188.285" tests="9" skipped="0" failures="0" errors="0">
+<testcase classname="Home Page Test" name="Login panel item count" time="44.304">
+<system-out><![CDATA[
+Given User enters the url "https://www.lenskart.com/" in the browser........passed
+And User sign in with valid username "automationpractice20@gmail.com" and password "NewAutomationpractice20@gmail.com".passed
+When User gets the count of login panel items...............................passed
+Then Login panel item count should be "5"...................................passed
+And Login panel items should be.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing page feature" name="Landing page title" time="39.776">
+<system-out><![CDATA[
+Given User enters the url "https://www.lenskart.com/" in the browser........passed
+Then Page title should contain "Lenskart.com"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing page feature" name="Landing page url" time="39.391">
+<system-out><![CDATA[
+Given User enters the url "https://www.lenskart.com/" in the browser........passed
+Then Page url should contain "lenskart.com".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with valid usernme and password - Example #1.1" time="3.765">
+<system-out><![CDATA[
+Given User is at the login page.............................................passed
+When User enter valid username "username_A" and password 123456.............passed
+Then Webpage redirects to user dashboard....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with valid usernme and password - Example #1.2" time="3.777">
+<system-out><![CDATA[
+Given User is at the login page.............................................passed
+When User enter valid username "username_B" and password 123456.............passed
+Then Webpage redirects to user dashboard....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with valid usernme and password - Example #1.3" time="3.788">
+<system-out><![CDATA[
+Given User is at the login page.............................................passed
+When User enter valid username "username_C" and password 123456.............passed
+Then Webpage redirects to user dashboard....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with valid usernme and password - Example #1.4" time="3.822">
+<system-out><![CDATA[
+Given User is at the login page.............................................passed
+When User enter valid username "username_D" and password 123456.............passed
+Then Webpage redirects to user dashboard....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with valid usernme and password - Example #1.5" time="3.815">
+<system-out><![CDATA[
+Given User is at the login page.............................................passed
+When User enter valid username "username_E" and password 123456.............passed
+Then Webpage redirects to user dashboard....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing page feature" name="Login with correct credentials" time="108.934">
+<system-out><![CDATA[
+Given User enters the url "https://www.lenskart.com/" in the browser........passed
+When User sign in with valid UserName and Password..........................passed
+Then User is on the dashboard with the username "Vipul".....................passed
+]]></system-out>
+</testcase>
+</testsuite>
